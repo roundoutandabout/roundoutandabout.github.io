@@ -1,0 +1,26 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Центрирование по вертикали при неизвестной высоте</title>
+		<style>
+		.vertical-outer {
+		  display: table;
+		  height: 10em;
+		  width: 500px;
+		  background: green;
+		}
+		.vertical-inner {
+		  display: table-cell;
+		  vertical-align: middle;
+		  background: rgba(55, 200, 100, 0.9);
+		  border: 1px solid blue;
+		}
+		</style>
+</head>
+<div class="vertical-outer">
+  <div class="vertical-inner">
+		<p>Я по центру и это даже не смешно!</p>
+  </div>
+</div>
+</html>
