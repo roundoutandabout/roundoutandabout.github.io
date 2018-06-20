@@ -1,5 +1,13 @@
 body {
-background-color: rgba(40, 65, 70, 0.6);}
+background-color: rgba(32, 32, 32, 0.9);}
+
+h1, h2 {
+	color: rgba(170, 170, 170, 0.8);
+}
+
+a {
+	color: rgba(190, 190, 190, 0.8);
+}
 
 
 
