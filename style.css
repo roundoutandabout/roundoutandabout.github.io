@@ -9,7 +9,14 @@ a {
 	color: rgba(190, 190, 190, 0.8);
 }
 
+a:hover {
+	opacity: 0.6;
+}
 
+a:active {
+	opacity: 1;
+	color: rgba(200, 200, 200, 0.8);
+}
 
 
 
