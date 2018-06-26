@@ -11,7 +11,7 @@ html {
 body {
   /* Margin bottom by footer height */
   padding-top: 2rem;
-  margin-bottom: 70px;
+  margin-bottom: 5rem;
 }
 
 @media (min-width: 992px) {
@@ -21,7 +21,7 @@ body {
 }
 
 .jumbotron {
-	margin-top: 2rem;
+	margin-top: 3rem;
 	border-radius: 0px;
 	background: url(../img/underwater-sunlight-filtering-resize.jpg);
 	background-size: cover;
@@ -60,26 +60,6 @@ body {
 
 .contacts {
 	margin-top: 1em;
-}
-
-.btn-facebook {
-	background-color: #3b5998;
-    border-color: #3b5998;
-}
-
-.btn-linkedin {
-	background-color: #007bb5;
-    border-color: #007bb5;
-}
-
-.btn-github {
-	background-color: #000000;
-    border-color: #000000;
-}
-
-.btn-telegram {
-	background-color: #0088CC;
-    border-color: #0088CC;
 }
 
 .footer {
