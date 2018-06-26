@@ -4,8 +4,14 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-2-col-portfolio/blob/master/LICENSE)
  */
 
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
-  padding-top: 54px;
+  /* Margin bottom by footer height */
+  padding-top: 2rem;
+  margin-bottom: 70px;
 }
 
 @media (min-width: 992px) {
@@ -14,10 +20,74 @@ body {
   }
 }
 
+.jumbotron {
+	margin-top: 2rem;
+	border-radius: 0px;
+	background: url(../img/underwater-sunlight-filtering.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.jumbotron h1, .jumbotron p {
+	color: white;
+}
+
+.text-center {
+	margin-bottom: 1rem;
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+.profile-image {
+	max-width: 100%;
+    height: auto;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.19);
+}
+
 .portfolio-item {
-  margin-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .pagination {
   margin-bottom: 30px;
+}
+
+.btn {
+	color: white;
+	margin: 0.1em;
+	font-size: 1.2em;
+}
+
+.contacts {
+	margin-top: 1em;
+}
+
+.btn-facebook {
+	background-color: #3b5998;
+    border-color: #3b5998;
+}
+
+.btn-linkedin {
+	background-color: #007bb5;
+    border-color: #007bb5;
+}
+
+.btn-github {
+	background-color: #000000;
+    border-color: #000000;
+}
+
+.btn-telegram {
+	background-color: #0088CC;
+    border-color: #0088CC;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
 }
